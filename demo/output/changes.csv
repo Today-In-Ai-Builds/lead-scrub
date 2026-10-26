@@ -1,0 +1,45 @@
+﻿row,field,before,after,reason
+2,name,dana whitfield,Dana Whitfield,name formatting
+2,email,Dana.Whitfield@northgate-print.test,dana.whitfield@northgate-print.test,email lowercased/trimmed
+2,phone,212.555.0111,+12125550111,phone normalised to E.164 (US default)
+2,company,NORTHGATE PRINT & COPY,Northgate Print & Copy,company formatting
+3,name,DANA WHITFIELD,Dana Whitfield,name formatting
+3,email,dana.whitfield@NORTHGATE-PRINT.TEST,dana.whitfield@northgate-print.test,email lowercased/trimmed
+3,phone,(212) 555-0111,+12125550111,phone normalised to E.164 (US default)
+3,company,Northgate Print and Copy Inc,Northgate Print and Copy Inc.,company formatting
+4,phone,212 555 0111 x204,+12125550111 x204,phone normalised to E.164 (US default)
+5,name,"Okafor, Chidi",Chidi Okafor,name formatting
+5,phone,(415) 555-0132,+14155550132,phone normalised to E.164 (US default)
+5,company,okafor hvac llc,Okafor HVAC LLC,company formatting
+7,phone,305-555-0147,+13055550147,phone normalised to E.164 (US default)
+8,phone,(305) 555-0147,+13055550147,phone normalised to E.164 (US default)
+8,company,"Alvarez Roofing, LLC",Alvarez Roofing LLC,company formatting
+9,phone,(646) 555-0166,+16465550166,phone normalised to E.164 (US default)
+10,phone,(646) 555-0166,+16465550166,phone normalised to E.164 (US default)
+11,phone,(713) 555-0120,+17135550120,phone normalised to E.164 (US default)
+13,email,sam.patel@gmial.com,sam.patel@gmail.com,domain typo 'gmial.com' -> 'gmail.com'
+13,phone,(202) 555-0183,+12025550183,phone normalised to E.164 (US default)
+14,phone,2025550183,+12025550183,phone normalised to E.164 (US default)
+15,phone,(503) 555-0109,+15035550109,phone normalised to E.164 (US default)
+16,phone,(303) 555-0172,+13035550172,phone normalised to E.164 (US default)
+17,name,Jo-Ann O'NEILL,Jo-Ann O'Neill,name formatting
+17,phone,(312) 555-0155,+13125550155,phone normalised to E.164 (US default)
+17,company,O'NEILL FARMS,O'Neill Farms,company formatting
+18,phone,not a phone,,invalid phone 'not a phone'
+19,phone,(617) 555-0190,+16175550190,phone normalised to E.164 (US default)
+20,phone,(214) 555-0138,+12145550138,phone normalised to E.164 (US default)
+21,phone,+1 214 555 0138,+12145550138,phone normalised to E.164 (US default)
+22,email,hannah.brooks@brooks-law,,invalid email 'hannah.brooks@brooks-law'
+22,phone,(212) 555-0101,+12125550101,phone normalised to E.164 (US default)
+23,phone,(206) 555-0114,+12065550114,phone normalised to E.164 (US default)
+24,phone,(404) 555-0127,+14045550127,phone normalised to E.164 (US default)
+25,phone,(504) 555-0166,+15045550166,phone normalised to E.164 (US default)
+26,phone,504-555-0166,+15045550166,phone normalised to E.164 (US default)
+26,company,DUBOIS PLUMBING,Dubois Plumbing,company formatting
+"2, 3, 4",merge,,Dana Whitfield,rows 2 + 3: same email dana.whitfield@northgate-print.test; rows 2 + 4: same phone +12125550111; rows 3 + 4: same phone +12125550111
+"5, 6",merge,,Chidi Okafor,rows 5 + 6: same email chidi@okafor-hvac.test
+"7, 8",merge,,Robert Alvarez,rows 7 + 8: same phone +13055550147
+"13, 14",merge,,Samuel Patel,rows 13 + 14: same email sam.patel@gmail.com
+"18, 19",merge,,Mia McDonald,rows 18 + 19: same email mia@mcd-design.test
+"20, 21",merge,,Luis García,rows 20 + 21: same email luis@garcia-auto.test
+"25, 26",merge,,Ray Dubois,rows 25 + 26: same phone +15045550166

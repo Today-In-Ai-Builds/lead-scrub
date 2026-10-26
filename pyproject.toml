@@ -1,0 +1,27 @@
+[project]
+name = "lead-scrub"
+version = "0.1.0"
+description = "Clean and de-duplicate a lead/CRM CSV in one command, with a plain-English change report."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+  "rapidfuzz==3.14.3",     # MIT
+  "phonenumbers==9.0.41",  # Apache-2.0
+]
+
+[project.optional-dependencies]
+dev = ["pytest==8.3.4"]
+
+[project.scripts]
+lead-scrub = "lead_scrub.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["lead_scrub"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

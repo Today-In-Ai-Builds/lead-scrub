@@ -1,0 +1,18 @@
+﻿name,email,other_emails,phone,other_phones,company,Source,Notes,flags,source_rows
+Dana Whitfield,dana.whitfield@northgate-print.test,,+12125550111,,Northgate Print & Copy,Trade show,asked for a quote,,"2,3,4"
+Chidi Okafor,chidi@okafor-hvac.test,,+14155550132,,Okafor HVAC LLC,Trade show,prefers email,,"5,6"
+Robert Alvarez,bob@alvarez-roofing.test,robert.alvarez@alvarez-roofing.test,+13055550147,,Alvarez Roofing,Web form,,,"7,8"
+Priya Nair,info@brightpath-dental.test,,+16465550166,,BrightPath Dental,Trade show,front desk inbox,,9
+Marcus Lee,info@brightpath-dental.test,,+16465550166,,BrightPath Dental,Web form,,,10
+Tom Reyes,reyes.family@gmail.test,,+17135550120,,,Web form,home project,,11
+Maria Reyes,reyes.family@gmail.test,,,,Reyes Tile,Web form,,,12
+Samuel Patel,sam.patel@gmail.com,,+12025550183,,Patel Logistics,Trade show,typo in the domain,email fixed: domain typo 'gmial.com' -> 'gmail.com',"13,14"
+Alex Kim,alex@riverbend-bakery.test,,+15035550109,,Riverbend Bakery,Web form,,,15
+Alex Kim,alex.kim@summit-fitness.test,,+13035550172,,Summit Fitness,Web form,different person,,16
+Jo-Ann O'Neill,joann@oneill-farms.test,,+13125550155,,O'Neill Farms,Trade show,,,17
+Mia McDonald,mia@mcd-design.test,,+16175550190,,McD Design,Referral,,invalid phone 'not a phone',"18,19"
+Luis García,luis@garcia-auto.test,,+12145550138,,García Auto,Web form,,,"20,21"
+Hannah Brooks,,,+12125550101,,Brooks Law PLLC,Web form,email is missing .com,invalid email 'hannah.brooks@brooks-law',22
+Ken Ito,ken@ito-design.test,,+12065550114,,Ito Design,Trade show,,,23
+Priyanka Desai,priyanka@desai-cpa.test,,+14045550127,,Desai CPA,Web form,,,24
+Ray Dubois,ray@dubois-plumbing.test,,+15045550166,,Dubois Plumbing,Referral,,,"25,26"
